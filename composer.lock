@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea8a93ca968085ef3b28e792676ac970",
+    "content-hash": "b91270d5a3aa66eed8f195dcbe4eda3c",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -3149,6 +3149,62 @@
                 }
             ],
             "time": "2025-05-08T08:14:37+00:00"
+        },
+        {
+            "name": "pecotamic/sitemap",
+            "version": "1.4.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pecotamic/sitemap.git",
+                "reference": "e51b96b6b602d743c171e974bbd5aed553d6d481"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pecotamic/sitemap/zipball/e51b96b6b602d743c171e974bbd5aed553d6d481",
+                "reference": "e51b96b6b602d743c171e974bbd5aed553d6d481",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0",
+                "statamic/cms": "^3.0|^4.0|^5.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pecotamic\\Sitemap\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Pecotamic Sitemap",
+                    "description": "Sitemap addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pecotamic\\Sitemap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Werner Freytag",
+                    "email": "wf@pecora.de"
+                }
+            ],
+            "description": "Simple sitemap addon for Statamic v3",
+            "keywords": [
+                "Sitemap",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/pecotamic/sitemap/issues",
+                "source": "https://github.com/pecotamic/sitemap/tree/1.4.9"
+            },
+            "time": "2025-01-29T16:06:03+00:00"
         },
         {
             "name": "phpoption/phpoption",
